@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "207914847135",
+    "firebase_url": "https://shareit-e6348.firebaseio.com",
+    "project_id": "shareit-e6348",
+    "storage_bucket": "shareit-e6348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207914847135:android:0d921c393560001f",
+        "android_client_info": {
+          "package_name": "com.example.heli.shareit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207914847135-4r9ekjve8mb09bu2por9h8lsk9n79h64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heli.shareit",
+            "certificate_hash": "48EDFE7088AE4967413A9D033DA3672221AE4E57"
+          }
+        },
+        {
+          "client_id": "207914847135-i7ppsh1jmvcmllouv26a9fdsc6gu6cd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207914847135-i7ppsh1jmvcmllouv26a9fdsc6gu6cd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
