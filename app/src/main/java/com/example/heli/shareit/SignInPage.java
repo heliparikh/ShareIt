@@ -245,44 +245,6 @@ public class SignInPage extends AppCompatActivity {
                 });
     }
 
-/////////////////////////////////////////////////
- /*   private void attachDatabaseReadListener()
-    {
-     //   if(mChildEventListener == null) {
-            mChildEventListener = new ChildEventListener() {
-                @Override
-                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-
-                 //   ShareIt friendlyMessage = dataSnapshot.getValue(FriendlyMessage.class);
-                   // mMessageAdapter.add(friendlyMessage);
-
-                }
-
-                @Override
-                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
-                }
-
-                @Override
-                public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-                }
-
-                @Override
-                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-                }
-
-                @Override
-                public void onCancelled(DatabaseError databaseError) {
-
-                }
-            };
-
-            mDatabaseReference.addChildEventListener(mChildEventListener);
-       // }
-    }
-*/
     private void detachDatabaseReadListener()
     {
         if(mChildEventListener != null) {
